@@ -16,5 +16,10 @@ Person(String first_name, String last_name){
     this();
     this.firstName = first_name;
     this.lastName = last_name;
+public UUID getUUID(){
+
+}
+public void setUUID(){
+
 }
 }
