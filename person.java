@@ -22,4 +22,7 @@ public UUID getUUID(){
 public void setUUID( UUID currentId ){
     this.id = currentId; 
 }
+  private long dataVersion;
+  private long lastEdited;
+  
 }
