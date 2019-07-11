@@ -8,6 +8,8 @@ public class Person extends Object {
 private UUID id;
 private String firstName;
 private String lastName;
+  private long dataVersion;
+  private long lastEdited;
 
 Person(){
     this.id = UUID.randomUUID();
