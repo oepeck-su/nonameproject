@@ -10,4 +10,9 @@ private String lastName;
 Person(){
     this.id = UUID.randomUUID();
 }
+Person(String first_name, String last_name){
+    this();
+    this.firstName = first_name;
+    this.lastName = last_name;
+}
 }
