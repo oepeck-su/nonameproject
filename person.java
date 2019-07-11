@@ -17,9 +17,9 @@ Person(String first_name, String last_name){
     this.firstName = first_name;
     this.lastName = last_name;
 public UUID getUUID(){
-
+    retun this.id;
 }
-public void setUUID(){
-
+public void setUUID( UUID currentId ){
+    this.id = currentId; 
 }
 }
